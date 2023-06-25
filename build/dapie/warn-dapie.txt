@@ -32,6 +32,7 @@ missing module named _posixshmem - imported by multiprocessing.resource_tracker 
 missing module named _posixsubprocess - imported by subprocess (optional), multiprocessing.util (delayed)
 missing module named multiprocessing.get_context - imported by multiprocessing (top-level), multiprocessing.pool (top-level), multiprocessing.managers (top-level), multiprocessing.sharedctypes (top-level)
 missing module named multiprocessing.TimeoutError - imported by multiprocessing (top-level), multiprocessing.pool (top-level)
+missing module named fcntl - imported by subprocess (optional)
 missing module named multiprocessing.set_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
 missing module named multiprocessing.get_start_method - imported by multiprocessing (top-level), multiprocessing.spawn (top-level)
 missing module named _manylinux - imported by pkg_resources._vendor.packaging._manylinux (delayed, optional), packaging._manylinux (delayed, optional)
@@ -71,4 +72,3 @@ missing module named 'python_socks._types' - imported by websocket._http (option
 missing module named 'python_socks._errors' - imported by websocket._http (optional)
 missing module named python_socks - imported by websocket._http (optional)
 missing module named 'wsaccel.xormask' - imported by websocket._abnf (optional)
-missing module named fcntl - imported by subprocess (optional)

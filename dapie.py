@@ -1,5 +1,4 @@
 ﻿import sys
-import subprocess
 from PyQt5.QtWidgets import QApplication, QMainWindow, QListWidget
 
 import docker
@@ -25,12 +24,6 @@ class DockerApp(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    
-    # Create the subprocess with CREATE_NO_WINDOW flag
-    startupinfo = subprocess.STARTUPINFO()
-    startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
-    subprocess.Popen([sys.executable, "dapie.pyw"], startupinfo=startupinfo)
-    
     window = DockerApp()
     window.show()
     sys.exit(app.exec_())

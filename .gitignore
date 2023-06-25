@@ -1,0 +1,21 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyz
+*.spec
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+#exe
+*.exe
