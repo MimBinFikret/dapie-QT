@@ -60,7 +60,7 @@ Proje, bir Makefile içerir. Makefile, gereklilikleri yüklemeyi ve Python beti�
 
 ## Lisans
 
-Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakın.
+Bu proje T1 Lisansı ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakın.
 
 ## Katkı
 
