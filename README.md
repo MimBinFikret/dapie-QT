@@ -1,4 +1,3 @@
-```markdown
 # Dapie
 
 Dapie, PyQt5 ve Docker kütüphanelerini kullanarak oluşturulmuş bir Docker konteynır listeleme uygulamasıdır. Bu uygulama, bilgisayarınızdaki Docker konteynırlarını listeleyerek kullanıcıya görüntüler.
