@@ -6,7 +6,7 @@ import docker
 class DockerApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Docker Konteynır Listesi")
+        self.setWindowTitle("Docker Container List")
         self.setGeometry(100, 100, 400, 350)
 
         self.docker_client = docker.from_env()
@@ -15,7 +15,7 @@ class DockerApp(QMainWindow):
 
         self.update_container_list()
 
-        self.exit_button = QPushButton("Çıkış", self)
+        self.exit_button = QPushButton("Exit", self)
         self.exit_button.setGeometry(150, 300, 100, 30)
         self.exit_button.clicked.connect(self.exit_app)
 

@@ -1,71 +1,71 @@
 # Dapie
 
-Dapie, PyQt5 ve Docker kütüphanelerini kullanarak oluşturulmuş bir Docker konteynır listeleme uygulamasıdır. Bu uygulama, bilgisayarınızdaki Docker konteynırlarını listeleyerek kullanıcıya görüntüler.
+Dapie is a Docker container listing application built using PyQt5 and Docker libraries. This application displays the Docker containers on your computer to the user.
 
-## Gereksinimler
+## Requirements
 
 - Python 3.x
 - PyQt5
-- Docker Python modülü
+- Docker Python module
 
-## Kurulum
+## Installation
 
-1. Projeyi klonlayın veya ZIP olarak indirin.
+1. Clone the project or download it as a ZIP.
 
-2. Terminali açın ve projenin kök dizinine gidin.
+2. Open the terminal and navigate to the root directory of the project.
 
-3. Gerekli Python paketlerini yüklemek için aşağıdaki komutu çalıştırın:
+3. Run the following command to install the required Python packages:
 
    ```bash
    make
    ```
 
-   Bu komut, Makefile'ı çalıştırarak gereklilikleri yükler ve Python betiğinizi derler.
+   This command executes the Makefile to install the dependencies and compile your Python script.
 
-## Kullanım
+## Usage
 
-1. Terminali açın ve projenin kök dizinine gidin.
+1. Open the terminal and navigate to the root directory of the project.
 
-2. Aşağıdaki komutu çalıştırarak uygulamayı başlatın:
+2. Start the application by running the following command:
 
    ```bash
    ./dapie
    ```
 
-3. Uygulama başlatıldığında, Docker konteynırlarınızı gösteren bir pencere görüntülenecektir.
+3. When the application starts, a window will appear showing your Docker containers.
 
-4. Çıkış yapmak için "Çıkış" butonuna tıklayın veya pencereyi kapatın.
+4. Click the "Exit" button or close the window to exit the application.
 
-## Makefile Kullanımı
+## Using Makefile
 
-Proje, bir Makefile içerir. Makefile, gereklilikleri yüklemeyi ve Python betiğinizi derlemeyi otomatikleştirir.
+The project includes a Makefile, which automates installing the requirements and compiling your Python script.
 
-- Gereklilikleri yüklemek için aşağıdaki komutu çalıştırabilirsiniz:
+- You can run the following command to install the requirements:
 
   ```bash
   make
   ```
 
-- Derlenmiş bir sürüm oluşturmak için aşağıdaki komutu kullanabilirsiniz:
+- To create a compiled version, you can use the following command:
 
   ```bash
   make dapie
   ```
 
-- Oluşturulan dosyaları temizlemek için aşağıdaki komutu kullanabilirsiniz:
+- You can use the following command to clean the generated files:
 
   ```bash
   make clean
   ```
 
-## Lisans
+## License
 
-Bu proje T1 Lisansı ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakın.
+This project is licensed under the T1 License. For more information, see the [LICENSE](LICENSE) file.
 
-## Katkı
+## Contributing
 
-Eğer bu projeye katkıda bulunmak isterseniz, lütfen CONTRIBUTING dosyasına bakın.
+If you would like to contribute to this project, please refer to the CONTRIBUTING file.
 
-## Sorun Bildirme
+## Issue Reporting
 
-Herhangi bir sorunla karşılaşırsanız, lütfen bir GitHub sorunu açın veya bana e-posta gönderin.
+If you encounter any issues, please open a GitHub issue or send me an email.
